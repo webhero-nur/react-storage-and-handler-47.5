@@ -2,9 +2,20 @@ function add(first, second) {
     return first + second;
 }
 
-// export default add;
 const multiply = (first, second) => {
     return first * second;
 }
 
-export { add, multiply };
+const subtract = (first, second) => {
+    return first - second;
+}
+
+const divide = (first, second) => {
+    return first / second;
+}
+
+const remainder = (first, second) => {
+    return first % second;
+}
+
+export { add, multiply, subtract, divide, remainder };
