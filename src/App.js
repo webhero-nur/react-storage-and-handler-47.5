@@ -9,6 +9,7 @@ function App() {
       <Cosmetics2></Cosmetics2>
       <hr />
       <Cosmetics></Cosmetics>
+      <hr />
       <Shoes></Shoes>
     </div>
   );
