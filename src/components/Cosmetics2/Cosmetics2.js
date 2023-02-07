@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { deleteCart } from '../../utilities/fakedb';
 import Cosmetic from '../Cosmetic/Cosmetic';
 
 const Cosmetics2 = () => {
@@ -18,6 +19,7 @@ const Cosmetics2 = () => {
                     cosmetic={cosmetic}
                 ></Cosmetic>)
             }
+            <button onClick={deleteCart}>Delete All from Cart</button>
         </div>
     );
 };
